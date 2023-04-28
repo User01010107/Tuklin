@@ -54,11 +54,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/pectoralMuscles"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="PectoralMuscles"
                         android:orientation="horizontal">
 
 
@@ -145,11 +145,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/biceps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Biceps"
                         android:orientation="horizontal">
 
 
@@ -236,11 +236,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/triceps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Triceps"
                         android:orientation="horizontal">
 
 
@@ -327,11 +327,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/shoulders"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Shoulders"
                         android:orientation="horizontal">
 
 
@@ -418,11 +418,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/back"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Back"
                         android:orientation="horizontal">
 
 
@@ -509,11 +509,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/core"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Core"
                         android:orientation="horizontal">
 
 
@@ -600,11 +600,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/bechPress"
+                        android:id="@+id/legs"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="ImageBtnClick"
+                        android:onClick="Legs"
                         android:orientation="horizontal">
 
 

@@ -12,6 +12,36 @@
         android:theme="@style/Theme.Tuklin"
         tools:targetApi="31">
         <activity
+            android:name=".WeightBack"
+            android:exported="false" />
+        <activity
+            android:name=".WeightProgramm3"
+            android:exported="false" />
+        <activity
+            android:name=".WeightProgramm2"
+            android:exported="false" />
+        <activity
+            android:name=".WeightProgramm1"
+            android:exported="false" />
+        <activity
+            android:name=".WeightLegs"
+            android:exported="false" />
+        <activity
+            android:name=".WeightCore"
+            android:exported="false" />
+        <activity
+            android:name=".WeightShoulders"
+            android:exported="false" />
+        <activity
+            android:name=".WeightTriceps"
+            android:exported="false" />
+        <activity
+            android:name=".WeightBiceps"
+            android:exported="false" />
+        <activity
+            android:name=".WeightChest"
+            android:exported="false" />
+        <activity
             android:name=".WorkOutFL"
             android:exported="false" />
         <activity

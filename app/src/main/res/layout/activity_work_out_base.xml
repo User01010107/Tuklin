@@ -351,7 +351,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Скручиванни"
+                                android:text="Лодочка"
                                 android:textSize="17dp"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black_white"

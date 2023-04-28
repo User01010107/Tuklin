@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="com.example.tuklin.WeightTrainingProgrammActivityActivity">
+    tools:context="com.example.tuklin.WeightTriceps">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -52,11 +52,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/beginner"
+                        android:id="@+id/benchPress"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Beginner"
+                        android:onClick="DoBenchPress"
                         android:orientation="horizontal">
 
 
@@ -72,23 +72,17 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Начинающий уровень"
+                                android:text="Скручивания"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black_white"
-                                android:textSize="17dp"
+                                android:textSize="20dp"
                                 android:textStyle="bold" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="500 упражнений"
-                                android:textStyle="bold"
-                                android:textColor="@color/grey"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="2 раза в неделю"
+                                android:text="верхняя часть пресса"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -148,11 +142,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/middle"
+                        android:id="@+id/benchPress"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Middle"
+                        android:onClick="DoBenchPress"
                         android:orientation="horizontal">
 
 
@@ -168,23 +162,17 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Средний уровень"
+                                android:text="Подъемы ног на турнике"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black_white"
                                 android:textSize="17dp"
                                 android:textStyle="bold" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="500 упражнений"
-                                android:textStyle="bold"
-                                android:textColor="@color/grey"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="3 раза в неделю"
+                                android:text="Нижняя часть пресса"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -235,102 +223,7 @@
                         android:background="@color/black_white"/>
 
                 </LinearLayout>
-                <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="100.0dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
 
-
-                <LinearLayout
-                    android:id="@+id/advanced"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10.0dp"
-                    android:onClick="Advanced"
-                    android:orientation="horizontal">
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10.0dp"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical">
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:text="Продвинутый"
-                            android:textAllCaps="true"
-                            android:textColor="@color/black_white"
-                            android:textSize="17dp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="500 упражнений"
-                            android:textStyle="bold"
-                            android:textColor="@color/grey"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="3 раза в неделю"
-                            android:textColor="#2ea802"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2.0">
-
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/benchpress"/>
-
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:layout_weight="0.0">
-
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-                            android:src="@drawable/right_arrow_white"/>
-
-                    </LinearLayout>
-
-
-
-
-                </LinearLayout>
-
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="4.0dp"
-                    android:background="@color/black_white"/>
-
-            </LinearLayout>
 
             </LinearLayout>
 
