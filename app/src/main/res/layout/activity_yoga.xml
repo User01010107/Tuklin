@@ -10,7 +10,7 @@
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolBar"
+        android:id="@+id/tBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/design_default_color_primary_dark"
@@ -52,7 +52,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/twist"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -123,7 +123,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -148,7 +148,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/cat"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -217,7 +217,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -242,7 +242,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/bride"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -311,7 +311,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -336,7 +336,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/incline"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -405,7 +405,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -430,7 +430,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/table"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -499,7 +499,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -524,7 +524,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/rider"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -593,7 +593,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
@@ -618,7 +618,7 @@
 
 
                     <LinearLayout
-                        android:id="@+id/boatPose"
+                        android:id="@+id/plank"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -687,7 +687,7 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow"/>
+                                android:src="@drawable/right_arrow_white"/>
 
                         </LinearLayout>
 
