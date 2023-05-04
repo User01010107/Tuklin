@@ -55,8 +55,7 @@ public class YogaExersisesActivity extends AppCompatActivity {
                 break;
 
             case 7:
-                setContentView(R.layout.activity_plank);
-                break;
+                setContentView(R.layout.activity_butterfly);
         }
 
         startTimer = findViewById(R.id.btnTimer);
@@ -107,7 +106,7 @@ public class YogaExersisesActivity extends AppCompatActivity {
             public void onFinish() {
 
                 int newvalue = Integer.valueOf(layoutValue) + 1;
-                if (newvalue <= 100){
+                if (newvalue <= 8){
                     Intent intent = new Intent(YogaExersisesActivity.this, YogaExersisesActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));

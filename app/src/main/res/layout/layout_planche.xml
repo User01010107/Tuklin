@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_black">
+
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_black"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Шаг 1. Отклонение тела вперед"
+                    android:textColor="@color/black_white"
+                    android:textStyle="bold"
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/planche_deviation" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 подхода по 10-15 повторений"
+                    android:textColor="#c5e545"
+                    android:textSize="18dp" />
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#ecede8"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#ecede8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ecede8"
+                            android:text="@string/str_planche_deviation"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Шаг 2. Отжимания уголком"
+                    android:textColor="@color/black_white"
+                    android:textStyle="bold"
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/planche_pike" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 подхода по 10-15 повторений"
+                    android:textColor="#c5e545"
+                    android:textSize="18dp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#ecede8"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#ecede8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ecede8"
+                            android:text="@string/str_planche_pike_pushup"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Шаг 3. Псевдо отжмания>"
+                    android:textColor="@color/black_white"
+                    android:textStyle="bold"
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/planche_pseudo_pushup" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 подхода по 10-15 повторений"
+                    android:textColor="#c5e545"
+                    android:textSize="18dp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#ecede8"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#ecede8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ecede8"
+                            android:text="@string/str_planche_pseudo_pushup"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Шаг 4. Закрытый горизонт"
+                    android:textColor="@color/black_white"
+                    android:textStyle="bold"
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/planche_tuck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 подхода по 10-15 секунд"
+                    android:textColor="#c5e545"
+                    android:textSize="18dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#ecede8"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#ecede8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ecede8"
+                            android:text="@string/str_planche_tuck_planche"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Шаг 5. Псевдо отжимания с поднятием ног"
+                    android:textColor="@color/black_white"
+                    android:textStyle="bold"
+                    android:textSize="26dp"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/planche_pseudo_super" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4 подхода по 10-15 повторений"
+                    android:textColor="#c5e545"
+                    android:textSize="18dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#ecede8"
+                    app:cardBackgroundColor="#fff"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="#ecede8"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#ecede8"
+                            android:text="@string/str_planche_pseudo_pushup_super"
+                            android:textColor="#000"
+                            android:textSize="18dp" />
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+</RelativeLayout>
+

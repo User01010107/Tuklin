@@ -20,7 +20,7 @@ public class YogaActivity extends AppCompatActivity {
 
         yogaExersises = new int[]{
                 R.id.twist, R.id.cat,R.id.bride,R.id.incline,
-                R.id.table, R.id.rider,R.id.plank,
+                R.id.table, R.id.rider,R.id.butterfly,
         };
 
     }

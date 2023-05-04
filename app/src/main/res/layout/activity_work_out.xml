@@ -145,11 +145,11 @@
 
 
                         <LinearLayout
-                            android:id="@+id/bechPress"
+                            android:id="@+id/planche"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
-                            android:onClick="DoPlanche"
+                            android:onClick="DoSpecificExersises"
                             android:orientation="horizontal">
 
 
@@ -236,11 +236,11 @@
 
 
                         <LinearLayout
-                            android:id="@+id/FrontLever"
+                            android:id="@+id/frontLever"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
-                            android:onClick="DoFrontLever"
+                            android:onClick="DoSpecificExersises"
                             android:orientation="horizontal">
 
 
@@ -327,11 +327,11 @@
 
 
                         <LinearLayout
-                            android:id="@+id/Handstand"
+                            android:id="@+id/handstand"
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10.0dp"
-                            android:onClick="DoHandstand"
+                            android:onClick="DoSpecificExersises"
                             android:orientation="horizontal">
 
 

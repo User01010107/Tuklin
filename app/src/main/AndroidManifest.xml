@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Tuklin"
         tools:targetApi="31">
         <activity
+            android:name=".WorkOutSpecificExersises"
+            android:exported="false" />
+        <activity
+            android:name=".WorkOutBaseExersises"
+            android:exported="false" />
+        <activity
             android:name=".YogaExersisesActivity"
             android:exported="false" />
         <activity
@@ -43,18 +49,6 @@
             android:exported="false" />
         <activity
             android:name=".WeightChest"
-            android:exported="false" />
-        <activity
-            android:name=".WorkOutFL"
-            android:exported="false" />
-        <activity
-            android:name=".WorkOutPlanche"
-            android:exported="false" />
-        <activity
-            android:name=".WorkOutHandstand"
-            android:exported="false" />
-        <activity
-            android:name=".WorkOutFrontLever"
             android:exported="false" />
         <activity
             android:name=".WorkOutBaseActivity"

@@ -54,11 +54,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/PushUps"
+                        android:id="@+id/pushUps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="DoPushUps"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -84,7 +84,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="43 круга"
+                                android:text="2 круга"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -146,11 +146,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/PullUps"
+                        android:id="@+id/pullUps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="DoPullUps"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -176,7 +176,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="43 круга"
+                                android:text="2 круга"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -238,11 +238,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/SitUps"
+                        android:id="@+id/sitUps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="DoSitUps"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -268,7 +268,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="43 круга"
+                                android:text="3 круга"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -330,11 +330,11 @@
 
 
                     <LinearLayout
-                        android:id="@+id/Twistings"
+                        android:id="@+id/boat"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="DoTwistings"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -351,7 +351,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Лодочка"
+                                android:text="Пресс"
                                 android:textSize="17dp"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black_white"
@@ -360,7 +360,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="43 круга"
+                                android:text="3 круга"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 

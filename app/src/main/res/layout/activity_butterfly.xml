@@ -23,7 +23,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/table" />
+                android:src="@drawable/butterfly" />
 
 
 
@@ -79,7 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#ecede8"
-                        android:text="@string/str_table"
+                        android:text="@string/str_butterfly"
                         android:textColor="#000"
                         android:textSize="18dp" />
 

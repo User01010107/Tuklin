@@ -79,7 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="#ecede8"
-                        android:text="@string/str_twist"
+                        android:text="@string/str_plank"
                         android:textColor="#000"
                         android:textSize="18dp" />
 
