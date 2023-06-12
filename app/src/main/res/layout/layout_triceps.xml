@@ -31,7 +31,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Шаг 1. Стойка на руках животом к стене"
+                    android:text="1. Разгибание рук в кроссовере "
                     android:textColor="@color/black_white"
                     android:textStyle="bold"
                     android:textSize="26dp"/>
@@ -40,13 +40,13 @@
                     android:layout_width="fill_parent"
                     android:layout_height="250dp"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/handstand_withawall" />
+                    android:src="@drawable/crossover_extension" />
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="2 минуты(за 4 подхода или меньше)"
+                    android:text="10-12 повторений"
                     android:textColor="#c5e545"
                     android:textSize="18dp" />
 
@@ -75,7 +75,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#ecede8"
-                            android:text="@string/str_handstand_with_a_wall"
+                            android:text="@string/str_triceps_crossover_arm_extension"
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -96,15 +96,21 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Шаг 2. Попытки стойки без стены"
+                    android:text="2. Обратные отжжимания"
                     android:textColor="@color/black_white"
                     android:textStyle="bold"
                     android:textSize="26dp"/>
 
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/reverse_pushup" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="на максимальное время"
+                    android:text="10-12 повторений"
                     android:textColor="#c5e545"
                     android:textSize="18dp" />
 
@@ -132,7 +138,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#ecede8"
-                            android:text="@string/str_handstand"
+                            android:text="@string/str_triceps_reverse_pushups"
                             android:textColor="#000"
                             android:textSize="18dp" />
 
@@ -151,4 +157,8 @@
     </ScrollView>
 
 </RelativeLayout>
+
+
+
+
 

@@ -46,7 +46,7 @@
 
 
                 <LinearLayout
-                    android:layout_width="fill_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="100.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -58,16 +58,16 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="PectoralMuscles"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
                         <LinearLayout
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
                             android:layout_margin="10.0dp"
                             android:layout_weight="1.0"
-                            android:layout_gravity="center"
                             android:orientation="vertical">
 
 
@@ -76,18 +76,17 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
                                 android:text="Грудные мышцы"
-                                android:textSize="17dp"
                                 android:textAllCaps="true"
                                 android:textColor="@color/black_white"
+                                android:textSize="17dp"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
-
 
 
                         </LinearLayout>
@@ -102,7 +101,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/benchpress"/>
+                                android:src="@drawable/benchpress" />
 
 
                         </LinearLayout>
@@ -112,19 +111,17 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:gravity="center"
-                            android:layout_weight="0.0">
+                            android:layout_weight="0.0"
+                            android:gravity="center">
 
 
                             <ImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:src="@drawable/right_arrow_white"/>
+                                android:src="@drawable/right_arrow_white" />
 
                         </LinearLayout>
-
-
 
 
                     </LinearLayout>
@@ -133,7 +130,7 @@
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="4.0dp"
-                        android:background="@color/black_white"/>
+                        android:background="@color/black_white" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -149,7 +146,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Biceps"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -175,7 +172,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -240,7 +237,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Triceps"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -266,7 +263,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -331,7 +328,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Shoulders"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -357,7 +354,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -422,7 +419,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Back"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -448,7 +445,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -513,7 +510,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Core"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -539,7 +536,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="1 упражнение"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 
@@ -604,7 +601,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
-                        android:onClick="Legs"
+                        android:onClick="DoExersise"
                         android:orientation="horizontal">
 
 
@@ -630,7 +627,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="1000 упражненний"
+                                android:text="2 упражнения"
                                 android:textColor="#2ea802"
                                 android:textStyle="bold" />
 

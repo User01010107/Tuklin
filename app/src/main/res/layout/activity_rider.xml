@@ -31,7 +31,7 @@
                 android:id="@+id/txtTime"
                 android:layout_width="210dp"
                 android:layout_height="210dp"
-                android:layout_marginLeft="100dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/btn_round"
                 android:gravity="center"

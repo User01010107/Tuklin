@@ -84,7 +84,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="1000 упражненний"
+                                    android:text="4 упражненний"
                                     android:textColor="#2ea802"
                                     android:textStyle="bold" />
 
@@ -102,7 +102,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/calesthenics"/>
+                                    android:src="@drawable/pushup_classic"/>
 
 
                             </LinearLayout>
@@ -175,7 +175,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="20 шагов"
+                                    android:text="5 шагов"
                                     android:textColor="#2ea802"
                                     android:textStyle="bold" />
 
@@ -193,7 +193,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/calesthenics"/>
+                                    android:src="@drawable/planche"/>
 
 
                             </LinearLayout>
@@ -266,7 +266,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="30 шагов"
+                                    android:text="4 шага"
                                     android:textColor="#2ea802"
                                     android:textStyle="bold" />
 
@@ -284,7 +284,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/calesthenics"/>
+                                    android:src="@drawable/frontlever_1bentleg"/>
 
 
                             </LinearLayout>
@@ -357,7 +357,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="10 шагов"
+                                    android:text="2 шага"
                                     android:textColor="#2ea802"
                                     android:textStyle="bold" />
 
@@ -375,7 +375,7 @@
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/calesthenics"/>
+                                    android:src="@drawable/handstand_withawall"/>
 
 
                             </LinearLayout>

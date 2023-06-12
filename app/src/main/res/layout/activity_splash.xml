@@ -71,7 +71,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:padding="5.0dp"
-                                    android:text="Work out"
+                                    android:text="Тренировки с собственным весом "
                                     android:textColor="@color/black_white"
                                     android:textSize="28dp"
                                     android:textStyle="bold" />
@@ -145,7 +145,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:padding="5.0dp"
-                                    android:text="Weight"
+                                    android:text="Тренировки с оборудованием "
                                     android:textColor="@color/black_white"
                                     android:textSize="28dp"
                                     android:textStyle="bold" />
@@ -223,7 +223,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="monospace"
                                     android:padding="5.0dp"
-                                    android:text="Yoga"
+                                    android:text="Йога "
                                     android:textColor="@color/black_white"
                                     android:textSize="28dp"
                                     android:textStyle="bold" />
@@ -286,7 +286,7 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily = "monospace"
                                 android:padding="5.0dp"
-                                android:text="Nutrition and Tips"
+                                android:text="Советы и рекомендации "
                                 android:textColor="@color/white_black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
@@ -295,7 +295,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="5.0dp"
-                                android:text="suggestion for free"
+                                android:text="бесплатно"
                                 android:textStyle="bold"
 />
 

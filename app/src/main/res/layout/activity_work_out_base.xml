@@ -102,7 +102,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/calesthenics"/>
+                                android:src="@drawable/pushup_classic"/>
 
 
                         </LinearLayout>
@@ -194,7 +194,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/calesthenics"/>
+                                android:src="@drawable/pullup_wide"/>
 
 
                         </LinearLayout>
@@ -286,7 +286,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/calesthenics"/>
+                                android:src="@drawable/squats_classic"/>
 
 
                         </LinearLayout>
@@ -378,7 +378,7 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/calesthenics"/>
+                                android:src="@drawable/abs_twisting"/>
 
 
                         </LinearLayout>

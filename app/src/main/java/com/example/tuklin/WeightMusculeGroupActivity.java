@@ -4,55 +4,35 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.example.tuklin.R;
 
 public class WeightMusculeGroupActivity extends AppCompatActivity {
 
+    int[] musclesExersises;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weight_muscule_group);
+
+        musclesExersises = new int[]{
+                R.id.pectoralMuscles,R.id.biceps,R.id.triceps,R.id.shoulders,R.id.back,R.id.core,R.id.legs,
+        };
     }
 
 
-    public void ImageBtnClick(View view) {
+    public void DoExersise(View view) {
+        for (int i = 0;i < musclesExersises.length; i++){
+            if ( view.getId() == musclesExersises[i]){
+                int value = i + 1;
+                Log.i("FIRST",String.valueOf(value));
+                Intent intent = new Intent(WeightMusculeGroupActivity.this, WeightMuslesExersisesActivity.class);
+                intent.putExtra("value",String.valueOf(value));
+                startActivity(intent);
+            }
+        }
     }
-    public void PectoralMuscles(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightChest.class);
-        startActivity(intent);
-    }
-
-
-    public void Biceps(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightBiceps.class);
-        startActivity(intent);
-    }
-
-    public void Triceps(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightTriceps.class);
-        startActivity(intent);
-    }
-
-    public void Shoulders(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightShoulders.class);
-        startActivity(intent);
-    }
-
-    public void Core(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightCore.class);
-        startActivity(intent);
-    }
-
-    public void Back(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightBack.class);
-        startActivity(intent);
-    }
-
-    public void Legs(View view) {
-        Intent intent = new Intent(WeightMusculeGroupActivity.this , WeightLegs.class);
-        startActivity(intent);
-    }
-
 }
