@@ -18,7 +18,7 @@
         android:background="@color/design_default_color_primary_dark"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="WorkOut App"
+        app:title="Tuklin"
         app:titleTextColor="#FFF"
         />
 

@@ -14,7 +14,7 @@
             android:background="@color/purple_700"
             android:textAlignment="textEnd"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:title="WorkOut App " />
+            app:title="Tuklin" />
 
         <ScrollView
             android:layout_width="fill_parent"
